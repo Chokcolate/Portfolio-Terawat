@@ -386,9 +386,29 @@ img{
   margin-left: auto;
 }
 
-.contact__img{
+.contact_img{
     width: 50px;
 }
+
+.contact__container {
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  margin-left: 35%;
+}
+
+.contact_row {
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact_info {
+    margin: 30px;
+    font-size: 1.2em;
+}
+
 .contact__img img{
     margin-top: 1rem;;
 }
