@@ -211,14 +211,14 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
+  width: 450px;
   z-index: -1;
   opacity: 0.8;
 }
 
 .home__img img{
 
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 /*BUTTONS*/
@@ -258,7 +258,7 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: justify;
   display: flex;
