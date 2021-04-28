@@ -266,6 +266,7 @@ img{
   flex-direction: row;
   margin-left: 70px;
   margin-right: 70px;
+  justify-content: space-between;
 }
 
 .skill_all{
