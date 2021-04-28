@@ -54,7 +54,7 @@ sr.reveal('.skill_all',{interval: 300});
 // sr.reveal('.card',{delay: 100}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact_row',{interval: 200}); 
+sr.reveal('.contact_row',{interval: 300}); 
 
 function toggle(){
     document.getElementById("popup-1").classList.toggle("active");
