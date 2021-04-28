@@ -48,7 +48,7 @@ sr.reveal('.about__text',{delay: 400});
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
 sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.skill_all',{interval: 200});
+sr.reveal('.skill_all',{interval: 300});
 
 /*SCROLL WORK*/
 // sr.reveal('.card',{delay: 100}); 
