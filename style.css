@@ -20,7 +20,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 576px){
   :root{
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -165,7 +165,7 @@ img{
   color: var(--third-color);
 }
 .nav__toggle{
-  color: var(--third-color);
+  color: #FFFFFF;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -212,6 +212,13 @@ img{
   right: 0;
   bottom: 0;
   width: 295px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.home__img img{
+
+  opacity: 0.4;
 }
 
 /*BUTTONS*/
@@ -459,8 +466,9 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
+    width: 350px;
     bottom: 15%;
+
   }
 
   .about__container, .skills__container{
